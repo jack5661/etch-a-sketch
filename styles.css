@@ -1,0 +1,54 @@
+html {
+    background: linear-gradient(0deg, #CFF, #FCC);
+    background-repeat: no-repeat;
+    margin-bottom: auto;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 1em;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+#menu {
+    display: flex;
+}
+
+button {
+    font-size: 20px;
+    padding: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.cell {
+    background-color: grey;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.cell:hover {
+    background-color: white;
+}
+
+#box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    border: 40px solid red;
+    border-radius: 20px;
+}
